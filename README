@@ -1,0 +1,30 @@
+This is a simple griffon application that presents a UI representing the
+buttons and dials on the bliptronic-monome.
+
+Pre requisites:
+ * You must have griffon 0.3+ installed. Go here: http://griffon.codehaus.org/
+ * ArduinomeSerial is also required, but I'm assuming if you've already got
+   your bliptronic monome then you also got the installation
+   instructions...so...go look there.
+
+If you are trying to use any Java monome tools then you will likely need to fix
+the Java thats installed on your computer. Currently the 1.6 JDK is not usable
+with the underlying OSC libs (I think?). Whatever the issue is, you can fix it
+by following the instructions here:
+
+http://wiki.oneswarm.org/index.php/OS_X_10.6_Snow_Leopard
+
+To Use:
+
+griffon run-app
+
+References:
+
+Go get yourself a kit if you don't already have one!
+
+http://www.straytechnologies.com/bliptronome-v2ests-kits-and-code-released/ 
+
+TODO:
+- give instructions for running the app w/o requiring griffon.
+- cleanup log messages
+- add buttons to clear the buttons.
